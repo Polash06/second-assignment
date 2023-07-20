@@ -157,6 +157,16 @@ background-clip: text;
 .instantly{
     color: #F948B2;
 }
+.last-pic{
+    width: 200px;
+    margin-top: -210px;
+    padding: 0px 20px 20px 20px;
+}
+.jahida{
+    width: 200px;
+    margin-top: -210px;
+    padding: 0px 20px 20px 100px;
+}
 .features-title{
     display: flex;
     gap: 70px;
@@ -278,9 +288,31 @@ color: #FFF;
     padding: 100px 10px 0px 0px ;
 }
 
-@media screen and (max-width:400px) {
-
-    
+@media screen and (max-width:576px) {
+          
+    ul {
+         flex-direction: column;
+         padding: 0px;
+    }
+    .features{
+       flex-direction: column;
+    }
+    .features-2{
+        flex-direction: column;
+    }
+    .features-3-img{
+        flex-direction: column;
+        margin: 100px;
+    }
+    .features-title{
+        flex-direction: column;
+    }
+    .nur-ayasha{
+        flex-direction: column;
+    }
+    .digital{
+        flex-direction: column;
+    }
 }
 
 
